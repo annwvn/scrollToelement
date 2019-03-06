@@ -45,6 +45,7 @@ export default {
     });
   },
   computed: {
+    //滑动右边左边可加高亮
     currentIndex() {
       for (let i = 0; i < this.heightList.length; i++) {
         let height1 = this.heightList[i];
